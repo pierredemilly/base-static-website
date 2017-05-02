@@ -28,6 +28,10 @@ body {
     font-size: 1.75rem;
     line-height: 3rem;
     text-align: center;
+    @media screen and (max-width: 550px) {
+      line-height: 1.75rem;
+      padding: 0 .5rem;
+    }
   }
 }
 

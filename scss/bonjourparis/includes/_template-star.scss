@@ -174,12 +174,20 @@
 				font-size: 1.25rem;
 				line-height: 1.5rem;
 			}
+			@media screen and (max-width: 550px) {
+				float: none;
+				width: 100%;
+				margin-bottom: 2rem;
+			}
 		}
 		.right {
 			margin-left: 50%;
 			padding: 0 .5rem;
 			p {
 				@include body();
+			}
+			@media screen and (max-width: 550px) {
+				margin-left: 0;
 			}
 		}
 	}

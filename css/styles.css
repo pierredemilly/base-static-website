@@ -1369,6 +1369,10 @@ body {
     font-size: 1.75rem;
     line-height: 3rem;
     text-align: center; }
+    @media screen and (max-width: 550px) {
+      .full-width-container .page-title {
+        line-height: 1.75rem;
+        padding: 0 .5rem; } }
 
 @media screen and (max-width: 1024px) {
   .mobile-hidden {
@@ -4518,6 +4522,11 @@ body {
       text-transform: none;
       font-size: 1.25rem;
       line-height: 1.5rem; }
+    @media screen and (max-width: 550px) {
+      .template-star .fondation-content .left {
+        float: none;
+        width: 100%;
+        margin-bottom: 2rem; } }
   .template-star .fondation-content .right {
     margin-left: 50%;
     padding: 0 .5rem; }
@@ -4532,3 +4541,6 @@ body {
           font-size: .6rem;
           line-height: .75rem;
           letter-spacing: .03em; } }
+    @media screen and (max-width: 550px) {
+      .template-star .fondation-content .right {
+        margin-left: 0; } }
