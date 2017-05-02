@@ -1,0 +1,114 @@
+.customer-address-index {
+  .wrapper {
+    background-image: url(../images/bonjourparis/background_account.png);
+    background-size: 150%;
+    background-position: left -200px;
+    background-repeat: no-repeat;
+
+    @media screen and (max-width: 750px) {
+      background-image: none;
+    }
+  }
+
+  .main-container {
+    height: 100vh;
+
+    .col-main {
+      .my-account {
+        margin-left: 120px;
+
+        @media screen and (max-width: 750px) {
+          margin: 0;
+        }
+
+        .page-title {
+          h1 {
+            border: none;
+            @include title-serifs;
+            text-transform: none;
+            color: $black;
+          }
+        }
+
+        .addresses-list {
+          .addresses-primary {
+            width: 100%;
+            padding: 0;
+
+            .legend {
+              border: none;
+              @include headline;
+              text-transform: none;
+              font-weight: 100;
+
+              @media screen and (max-width: 750px) {
+                text-align: center;
+                margin-bottom: 0;
+              }
+            }
+
+            ol {
+              padding: 0;
+
+              li {
+                border: none;
+                height: 60px;
+                padding: 0;
+                margin: 0;
+                position: relative;
+
+                @media screen and (max-width: 750px) {
+                  border-top: 1px solid $light-pink;
+                }
+
+                .edit-button {
+                  @include center-y;
+                  right: 20px;
+                  border: 1px solid $pink;
+                  height: 20px;
+                  width: 20px;
+                }
+
+                .box-content {
+                  @include headline;
+                  font-size: 0.7rem;
+                  height: 100%;
+                  line-height: 60px;
+
+                  @media screen and (max-width: 750px) {
+                    line-height: 60px;
+                    margin-left: 20px;
+                  }
+                  p {
+                    margin: 0;
+                  }
+                }
+                .button {
+                  background: transparent;
+                  @include headline;
+                  font-size: 0.7rem;
+                  color: $grey;
+                  height: 60px;
+                  padding: 0;
+                  width: 100%;
+                  text-align: left;
+
+                  @media screen and (max-width: 750px) {
+                    border-bottom: 1px solid $light-pink;
+                    padding-left: 20px;
+                  }
+
+                }
+              }
+            }
+          }
+        }
+
+        .form-list {
+          padding: 0;
+
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,226 @@
+.customer-account-login {
+  .wrapper {
+    background-image: url(../images/bonjourparis/background_account.png);
+    background-size: 150%;
+    background-position: left -200px;
+    background-repeat: no-repeat;
+
+    @media screen and (max-width: 750px) {
+      background-image: none;
+    }
+  }
+
+  .main-container {
+    height: 100vh;
+
+    @media screen and (max-width: 750px) {
+      margin-top: 20px;
+    }
+    .account-login {
+      .page-title {
+        h1 {
+          border: none;
+          text-align: center;
+          @include title-serifs;
+          text-transform: none;
+          color: $black;
+        }
+      }
+      .col2-set {
+        .registered-users {
+          width: 100%;
+          border: none;
+          padding: 20px;
+
+          @media screen and (max-width: 750px) {
+            padding: 0;
+          }
+
+          .content {
+            h2 {
+              text-align: center;
+              color: $black;
+              @include headline;
+
+              @media screen and (max-width: 750px) {
+                margin: 20px 0 30px 0;
+              }
+            }
+            .form-list {
+              margin-top: 0;
+
+              @media screen and (max-width: 750px) {
+                padding: 0;
+              }
+
+              li {
+                height: 40px;
+                margin-bottom: 20px;
+                .input-box {
+                  padding-top: 0;
+
+                  .validation-advice {
+                    display: none;
+                  }
+
+                  .input-text {
+                    width: 280px;
+                    @include center-x;
+
+                    @media screen and (max-width: 750px) {
+                      width: 90vw;
+                    }
+                  }
+                }
+              }
+            }
+
+          }
+          .buttons-set {
+            margin: 0;
+            padding: 0;
+            display: block;
+            height: 40px;
+            position: relative;
+            width: 280px;
+            @include center-x;
+
+            .button {
+              width: 280px;
+              @include center-x;
+
+              @media screen and (max-width: 750px) {
+                width: 90vw;
+              }
+            }
+
+            @media screen and (max-width: 750px) {
+              width: 90vw;
+            }
+          }
+          .link-box {
+            margin: 40px 0;
+            width: 280px;
+            height: 50px;
+            border-bottom: 1px solid $concrete;
+            @include center-x;
+            a {
+              color: $grey;
+              @include center-xy;
+              @include caption;
+              letter-spacing: normal;
+              text-align: center;
+              display: block;
+            }
+
+            @media screen and (max-width: 750px) {
+              width: 90vw;
+              height: 40px;
+            }
+          }
+        }
+
+        .new-users {
+          width: 100%;
+          margin-top: 80px;
+
+          @media screen and (max-width: 750px) {
+            margin-top: 90px;
+          }
+
+          .content {
+            @include center-x;
+            width: 280px;
+
+            @media screen and (max-width: 750px) {
+              width: 90%;
+            }
+
+            h2 {
+              text-align: center;
+              @include headline;
+              margin-top: 30px;
+
+              @media screen and (max-width: 750px) {
+                margin-top: 20px;
+              }
+            }
+            .required {
+              color: $grey;
+              text-align: center;
+              @include caption;
+              margin-top: 50px;
+              @media screen and (max-width: 750px) {
+                margin-top: 60px;
+              }
+            }
+            .input-box {
+              height: 40px;
+
+              .input-text {
+                width: 280px;
+                @include center-x;
+
+                @media screen and (max-width: 750px) {
+                  width: 90vw;
+                }
+              }
+            }
+            .buttons-set {
+              margin: 10px 0;
+              .button {
+                width: 280px;
+                @include center-x;
+
+                @media screen and (max-width: 750px) {
+                  width: 90vw;
+                }
+              }
+            }
+            .or-separator {
+              position: relative;
+              height: 40px;
+              @media screen and (max-width: 750px) {
+                margin-top: 40px;
+              }
+              span {
+                @include center-xy;
+                color: $concrete;
+                @include caption;
+                font-size: 0.8rem;
+                font-weight: 200;
+                @media screen and (max-width: 750px) {
+                  font-size: 0.7rem;
+                }
+              }
+              &:before {
+                content: '';
+                @include center-y;
+                height: 1px;
+                width: 40%;
+                background-color: $concrete;
+              }
+              &:after {
+                content: '';
+                @include center-y;
+                height: 1px;
+                width: 40%;
+                left: 60%;
+                background-color: $concrete;
+              }
+            }
+
+            .fb {
+              margin-top: -10px;
+              @media screen and (max-width: 750px) {
+                margin-top: -20px;
+
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
+}

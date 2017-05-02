@@ -1,0 +1,323 @@
+// Home page
+$slideshow-height: 31rem;
+$slideshow-height-tablet: 43rem;
+$slideshow-height-mobile: 88vh;
+.cms-home .main-container {
+  width: 100%;
+  padding: 0;
+  max-width: none;
+  padding: 0 !important;
+  .col-main {
+    @media screen and (max-width: 1024px) {
+      margin-bottom: 0;
+    }
+  }
+  .slideshow-home-container {
+    margin: 0;
+    position: fixed;
+    top: 6rem;
+    left: 0;
+    width: 100%;
+    height: $slideshow-height;
+    transition: top $transition-speed ease-in-out;
+    @media screen and (max-width: 1024px) {
+      width: 100vw;
+      top: 2.5rem;
+      height: $slideshow-height-tablet;
+    }
+    @media screen and (max-width: 550px) {
+      height: $slideshow-height-mobile;
+    }
+    .arrow {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 5rem;
+      cursor: pointer;
+      z-index: 200;
+      &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        display: block;
+        width: 200%;
+        height: 100%;
+        opacity: 0;
+        transition: opacity $transition-speed / 2 linear;
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: transparent no-repeat center center;
+        transition: transform $transition-speed / 2 ease-in-out;
+      }
+      &.right {
+        right: 0;
+        &:before {
+          right: 0;
+          background-image: linear-gradient(to left, $black, transparent);
+        }
+        &:after {
+          right: 0;
+          transform: translateX(1rem);
+          background-image: url(../images/bonjourparis/icon_slider_arrow_right.png);
+        }
+      }
+      &.left {
+        left: 0;
+        &:before {
+          left: 0;
+          background-image: linear-gradient(to right, $black, transparent);
+        }
+        &:after {
+          left: 0;
+          transform: translateX(-1rem);
+          background-image: url(../images/bonjourparis/icon_slider_arrow_left.png);
+        }
+      }
+      &:hover {
+        &:before {
+          opacity: .2;
+        }
+        &.right:after, &.left:after {
+          transform: translateX(0);
+        }
+      }
+      @media screen and (max-width: 550px) {
+        display: none;
+      }
+    }
+    .slideshow {
+      border: none;
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+      position: relative;
+      &.reverse li {
+        right: auto;
+        left: 0;
+        &.deactivating {
+          right: 0;
+          left: auto;
+        }
+      }
+      li {
+        position: absolute;
+        right: 0;
+        top: 0;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 0;
+        height: 100%;
+        overflow: hidden;
+        &.activating {
+          z-index: 100;
+          width: 100%;
+          transition: width (2 * $transition-speed) ease-in-out;
+        }
+        &.deactivating {
+          z-index: 50;
+          left: 0;
+          right: auto;
+          width: 0%;
+          transition: width (2 * $transition-speed) ease-in-out;
+        }
+        &.active {
+          z-index: 70;
+          width: 100%;
+        }
+        .image-container {
+          width: 100vw;
+          height: 100%;
+          background-position: center;
+          background-size: cover;
+          position: absolute;
+          left: 50%;
+          top: 0;
+          transform: translateX(-50vw);
+          z-index: 50;
+        }
+        h3, .right {
+          position: absolute;
+          font-weight: 500;
+          font-size: .9rem;
+          line-height: 1.25rem;
+          text-align: center;
+          color: $white;
+          text-transform: none;
+          z-index: 80;
+          // text-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+        }
+        h3 {
+          left: 0;
+          right: 0;
+          bottom: 2rem;
+          margin: 0 auto;
+        }
+        .right {
+          display: none;
+          right: 2rem;
+          bottom: 3rem;
+          text-align: right;
+          @media screen and (max-width: 1024px) {
+            bottom: auto;
+            top: 1.5rem;
+            right: 0;
+            left: 0;
+            margin: auto;
+            text-align: center;
+          }
+          @media screen and (max-width: 550px) {
+            top: .75rem;
+            left: 1rem;
+            right: auto;
+          }
+        }
+        a {
+          display: block;
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 120;
+        }
+        img {
+          display: none;
+        }
+      }
+    }
+    .slideshow-pager {
+      bottom: 1.5rem;
+      right: 1.75rem;
+      width: auto;
+      height: 1rem;
+      @media screen and (max-width: 1024px) {
+        bottom: auto;
+        top: 3rem;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+      }
+      @media screen and (max-width: 550px) {
+        top: .75rem;
+        right: 1rem;
+        left: auto;
+      }
+      span.pager-box {
+        width: .75rem;
+        height: 1rem;
+        position: relative;
+        &:before {
+          width: .5rem;
+          height: .5rem;
+          border-radius: 50%;
+          background: white;
+          opacity: .4;
+        }
+        &.active:before {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  .home-products-area {
+    width: 100%;
+    margin-top: 30rem;
+    padding-bottom: 2rem;
+    background: $white;
+    position: relative;
+    overflow: hidden;
+    @media screen and (max-width: 1024px) {
+      margin-top: $slideshow-height-tablet;
+    }
+    @media screen and (max-width: 550px) {
+      margin-top: $slideshow-height-mobile;
+    }
+    .home-mobile-menu {
+      display: none;
+      @media screen and (max-width: 550px) {
+        display: block;
+        .home-mobile-menu-anchor {
+          display: block;
+          height: 2.5rem;
+          border-bottom: 1px solid $pink;
+          @include title();
+          padding: 1rem;
+          color: $black;
+          position: relative;
+          &:after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: .75rem;
+            right: 1rem;
+            width: 1rem;
+            height: 1rem;
+            background: url(../images/bonjourparis/icon_arrow_right.svg) no-repeat center right;
+            background-size: 7px 14px;
+          }
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    .products-wrapper {
+      overflow: hidden;
+      cursor: grab !important;
+    }
+    .products-container {
+      list-style: none;
+      padding: 0 .5rem;
+      margin: 1rem 0 0;
+      white-space: nowrap;
+      font-size: 0;
+      @include noselect();
+      .product {
+        display: inline-block;
+        margin: 0 .5rem;
+        a {
+          color: $black;
+        }
+        a:hover {
+          text-decoration: none;
+        }
+        .image-container {
+          height: 25rem;
+          width: auto;
+          overflow: hidden;
+          margin-bottom: 1rem;
+          img {
+            height: 100%;
+            width: auto;
+          }
+          @media screen and (max-width: 1024px) {
+            height: 17.5rem;
+            margin-bottom: .5rem;
+          }
+        }
+        .title, .subtitle {
+          margin: 0;
+          font-size: .7rem;
+          line-height: 1rem;
+          letter-spacing: .04em;
+          text-align: center;
+          text-transform: uppercase;
+        }
+        .title {
+          font-weight: 500;
+        }
+        .subtitle {
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,134 @@
+.customer-account-edit {
+  .wrapper {
+    background-image: url(../images/bonjourparis/background_account.png);
+    background-size: 150%;
+    background-position: left -200px;
+    background-repeat: no-repeat;
+
+    @media screen and (max-width: 750px) {
+      background-image: none;
+    }
+  }
+
+  .main-container {
+    height: 100vh;
+
+    .legend {
+      border: none;
+      @include headline;
+      text-transform: none;
+      font-weight: 100;
+
+      @media screen and (max-width: 750px) {
+        text-align: center;
+        margin-bottom: 0;
+      }
+    }
+
+    .col-main {
+      .my-account {
+        margin-left: 120px;
+
+        @media screen and (max-width: 750px) {
+          margin: 0;
+        }
+
+        .page-title {
+          h1 {
+            border: none;
+            @include title-serifs;
+            text-transform: none;
+            color: $black;
+          }
+        }
+
+        .form-list {
+          padding: 0;
+          .fields {
+            margin-bottom: 20px;
+            height: 40px;
+            &.gender {
+              height: 20px;
+              #male {
+                margin-left: 20px;
+              }
+              @media screen and (max-width: 750px) {
+                margin-left: 5vw;
+              }
+            }
+
+            .input-box {
+              position: relative;
+              width: 280px;
+              padding: 0;
+
+              @media screen and (max-width: 750px) {
+                width: 90vw;
+                @include center-x;
+              }
+
+              .input-text {
+                position: relative;
+                width: 100%;
+              }
+            }
+
+            .field {
+              width: 280px;
+
+              &.name-firstname, &.left {
+                display: inline-block;
+                float: left;
+                margin-right: 20px;
+              }
+              &.name-lastname, &.right {
+                float: left;
+              }
+
+              @media screen and (max-width: 750px) {
+                float: none;
+                height: 40px;
+                margin-bottom: 20px;
+              }
+            }
+          }
+        }
+        .buttons-set {
+          border: none;
+          text-align: left;
+
+          @media screen and (max-width: 750px) {
+            margin-top: 0;
+            padding: 0;
+          }
+
+          .button {
+            float: none;
+            margin: 0;
+            width: 280px;
+
+            @media screen and (max-width: 750px) {
+              @include center-x;
+              width: 90vw;
+            }
+          }
+        }
+        .fieldset {
+          margin-bottom: 20px;
+
+          @media screen and (max-width: 750px) {
+            margin-top: 0;
+          }
+        }
+        .required {
+          float: none;
+          // padding-top: -10px;
+          color: $grey;
+          @include caption;
+        }
+      }
+    }
+
+  }
+
+}

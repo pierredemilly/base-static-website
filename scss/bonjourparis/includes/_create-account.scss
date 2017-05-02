@@ -1,0 +1,167 @@
+.customer-account-create {
+  .wrapper {
+    background-image: url(../images/bonjourparis/background_account.png);
+    background-size: 150%;
+    background-position: left -200px;
+    background-repeat: no-repeat;
+
+    @media screen and (max-width: 750px) {
+      background-image: none;
+    }
+  }
+
+  .main-container {
+    height: 100vh;
+
+    @media screen and (max-width: 750px) {
+      margin-top: 20px;
+      height: 125vh;
+    }
+
+    .account-create {
+      width: 580px;
+      @include center-x;
+
+      @media screen and (max-width: 750px) {
+        width: 100%;
+      }
+
+      .page-title {
+        h1 {
+          border: none;
+          text-align: center;
+          @include title-serifs;
+          text-transform: none;
+          color: $black;
+        }
+      }
+      .fieldset {
+        margin: 0;
+
+        .required {
+          float: none;
+          clear: both;
+          padding-top: 10px;
+          color: $grey;
+          @include caption;
+
+          @media screen and (max-width: 750px) {
+            margin-left: 5vw;
+          }
+        }
+      }
+      .form-list {
+        padding: 0;
+        margin-top: 30px;
+
+        .fields {
+          height: 40px;
+          margin-bottom: 20px;
+          &.gender {
+            height: 20px;
+            #male {
+              margin-left: 20px;
+            }
+            @media screen and (max-width: 750px) {
+              margin-left: 5vw;
+            }
+          }
+
+          &.names {
+
+            @media screen and (max-width: 750px) {
+              height: 100px;
+            }
+          }
+
+          .field {
+            width: 280px;
+
+            &.name-firstname, &.pass, &.email {
+              display: inline-block;
+              float: left;
+              margin-right: 20px;
+            }
+            &.name-lastname, &.pass-confirm, &.birth {
+              float: left;
+            }
+            &.dancer {
+              width: 580px;
+
+              @media screen and (max-width: 750px) {
+                width: 90vw;
+                @include center-x;
+              }
+              .input-box {
+                width: 100%;
+              }
+              select {
+                margin: 0;
+              }
+            }
+            .input-box {
+              position: relative;
+              width: 280px;
+              padding: 0;
+
+              @media screen and (max-width: 750px) {
+                width: 90vw;
+                @include center-x;
+              }
+
+              .input-text {
+                position: relative;
+                width: 100%;
+              }
+            }
+
+            @media screen and (max-width: 750px) {
+              float: none;
+              height: 40px;
+              margin-bottom: 20px;
+            }
+          }
+        }
+
+        .control {
+          label {
+            background-color: transparent;
+          }
+          @media screen and (max-width: 750px) {
+            margin-left: 5vw;
+          }
+        }
+
+      }
+
+      .buttons-set {
+        border: none;
+        margin: 0;
+
+        @media screen and (max-width: 750px) {
+          margin-left: 5vw;
+        }
+
+        button {
+          float: left;
+          margin: 0;
+          width: 280px;
+        }
+      }
+      .privacy {
+        float: none;
+        clear: both;
+        padding-top: 10px;
+        color: $black;
+        @include caption;
+
+        @media screen and (max-width: 750px) {
+          margin-left: 5vw;
+          width: 90vw;
+        }
+      }
+    }
+  }
+
+
+}
