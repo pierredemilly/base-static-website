@@ -92,12 +92,18 @@
 				font-size: 1.75rem;
 				line-height: 3rem;
 				margin-bottom: 1rem;
+				@media screen and (max-width: 550px) {
+					font-size: 1.5rem;
+					line-height: 1.5rem;
+					margin-bottom: .5rem;
+				}
 			}
 			p {
 				@include body();
 			}
 			.links {
 				a {
+					display: inline-block;
 					@include body();
 					font-size: .8rem;
 					line-height: 2rem;
@@ -105,6 +111,10 @@
 					color: $grey;
 					display: inline-block;
 					margin: 0 1rem;
+					@media screen and (max-width: 550px) {
+						font-weight: 200;
+						margin-bottom: .8rem;
+					}
 				}
 			}
 		}
@@ -112,42 +122,66 @@
 	.video.module {
 		iframe, video, object {
 			width: 100%;
+			@media screen and (max-width: 550px) {
+				// max-height: 50vh;
+				height: auto;
+			}
 		}
 	}
 	.image-text.module {
-		padding: 0 8.33%;
+		padding: 0 9.83%;
 		display: flex;
 		justify-content: space-between;
+		@media screen and (max-width: 550px) {
+			padding: 0 .5rem;
+			flex-direction: column;
+		}
 		.image {
 			width: 50%;
 			height: auto;
-			padding: 0 .5rem;
+			padding: 0 .5rem 0 0;
+			@media screen and (max-width: 550px) {
+				width: 100%;
+				padding: 0 .5rem;
+			}
 		}
 		.text {
 			width: 40%;
 			margin-left: 10%;
-			padding: 0 .5rem;
+			padding: 0 0 0 .5rem;
 			.title strong {
 				@include title-serifs();
 				font-size: 3.5rem;
+				@media screen and (max-width: 550px) {
+					font-size: inherit;
+				}
+			}
+			@media screen and (max-width: 550px) {
+				width: 100%;
+				margin-left: 0;
+				padding: 0 .5rem;
 			}
 		}
 	}
 	.text-on-image.module {
-		padding: 0 8.33%;
-		position: relative;
-		.image {
-			padding: 0 .5rem;
+		margin: 0 9.83% 2rem;
+		background-size: cover;
+		background-position: center;
+		overflow: hidden;
+		@media screen and (max-width: 550px) {
+			margin: 0 1rem 2rem;
 		}
 		.text {
-			position: absolute;
-			left: 13%;
-			right: 50%;
-			top: 3rem;
-			bottom: 2rem;
+			position: static;
+			margin: 3rem 50% 3rem 2.5rem;
 			background: $white;
 			transform: translateX(-.5rem);
 			padding: 2rem;
+			@media screen and (max-width: 550px) {
+				margin: 1.5rem;
+				transform: none;
+				padding: 1rem;
+			}
 		}
 	}
 	.parallax-banner.module {
@@ -155,9 +189,16 @@
 			.title {
 				margin-top: 2rem;
 				margin-bottom: 0;
+				@media screen and (max-width: 550px) {
+					margin-top: 1rem;
+					margin-bottom: 1rem;
+				}
 			}
 			width: 50%;
 			margin: auto;
+			@media screen and (max-width: 550px) {
+				width: 60%;
+			}
 		}
 	}
 	.fondation-content {

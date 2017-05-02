@@ -4431,6 +4431,11 @@ body {
       font-size: 1.75rem;
       line-height: 3rem;
       margin-bottom: 1rem; }
+      @media screen and (max-width: 550px) {
+        .template-star .module .text .title {
+          font-size: 1.5rem;
+          line-height: 1.5rem;
+          margin-bottom: .5rem; } }
     .template-star .module .text p {
       font-family: Campton, Helvetica, Arial, sans-serif;
       font-size: .7rem;
@@ -4443,6 +4448,7 @@ body {
           line-height: .75rem;
           letter-spacing: .03em; } }
     .template-star .module .text .links a {
+      display: inline-block;
       font-family: Campton, Helvetica, Arial, sans-serif;
       font-size: .7rem;
       line-height: 1rem;
@@ -4459,22 +4465,37 @@ body {
           font-size: .6rem;
           line-height: .75rem;
           letter-spacing: .03em; } }
+      @media screen and (max-width: 550px) {
+        .template-star .module .text .links a {
+          font-weight: 200;
+          margin-bottom: .8rem; } }
 
 .template-star .video.module iframe, .template-star .video.module video, .template-star .video.module object {
   width: 100%; }
+  @media screen and (max-width: 550px) {
+    .template-star .video.module iframe, .template-star .video.module video, .template-star .video.module object {
+      height: auto; } }
 
 .template-star .image-text.module {
-  padding: 0 8.33%;
+  padding: 0 9.83%;
   display: flex;
   justify-content: space-between; }
+  @media screen and (max-width: 550px) {
+    .template-star .image-text.module {
+      padding: 0 .5rem;
+      flex-direction: column; } }
   .template-star .image-text.module .image {
     width: 50%;
     height: auto;
-    padding: 0 .5rem; }
+    padding: 0 .5rem 0 0; }
+    @media screen and (max-width: 550px) {
+      .template-star .image-text.module .image {
+        width: 100%;
+        padding: 0 .5rem; } }
   .template-star .image-text.module .text {
     width: 40%;
     margin-left: 10%;
-    padding: 0 .5rem; }
+    padding: 0 0 0 .5rem; }
     .template-star .image-text.module .text .title strong {
       font-family: Bellina, Georgia, serif;
       font-size: 2rem;
@@ -4482,21 +4503,34 @@ body {
       font-weight: normal;
       text-transform: none;
       font-size: 3.5rem; }
+      @media screen and (max-width: 550px) {
+        .template-star .image-text.module .text .title strong {
+          font-size: inherit; } }
+    @media screen and (max-width: 550px) {
+      .template-star .image-text.module .text {
+        width: 100%;
+        margin-left: 0;
+        padding: 0 .5rem; } }
 
 .template-star .text-on-image.module {
-  padding: 0 8.33%;
-  position: relative; }
-  .template-star .text-on-image.module .image {
-    padding: 0 .5rem; }
+  margin: 0 9.83% 2rem;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden; }
+  @media screen and (max-width: 550px) {
+    .template-star .text-on-image.module {
+      margin: 0 1rem 2rem; } }
   .template-star .text-on-image.module .text {
-    position: absolute;
-    left: 13%;
-    right: 50%;
-    top: 3rem;
-    bottom: 2rem;
+    position: static;
+    margin: 3rem 50% 3rem 2.5rem;
     background: #fff;
     transform: translateX(-0.5rem);
     padding: 2rem; }
+    @media screen and (max-width: 550px) {
+      .template-star .text-on-image.module .text {
+        margin: 1.5rem;
+        transform: none;
+        padding: 1rem; } }
 
 .template-star .parallax-banner.module .text {
   width: 50%;
@@ -4504,6 +4538,13 @@ body {
   .template-star .parallax-banner.module .text .title {
     margin-top: 2rem;
     margin-bottom: 0; }
+    @media screen and (max-width: 550px) {
+      .template-star .parallax-banner.module .text .title {
+        margin-top: 1rem;
+        margin-bottom: 1rem; } }
+  @media screen and (max-width: 550px) {
+    .template-star .parallax-banner.module .text {
+      width: 60%; } }
 
 .template-star .fondation-content {
   padding: 0 8.33%;
