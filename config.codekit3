@@ -1313,6 +1313,24 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/jquery.mobile.custom.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.mobile.custom-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/jquery.mobile.custom.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.mobile.custom.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/scss\/_bonjourparis.scss": {
 		"aP": 0,
 		"bl": 0,

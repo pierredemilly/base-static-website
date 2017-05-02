@@ -7,9 +7,11 @@ jQuery(function($) {
 		var photos = that.find('.photo');
 		var dots = that.find('.dot');
 		var texts = that.find('.text');
+		var MAX_INDEX = photos.length - 1;
 		var CURRENT_INDEX;
 
 		function activatePhoto(index, to_right) {
+			CURRENT_INDEX = index;
 			if (to_right) {
 				photos.eq(index).addClass('left');
 				setTimeout(function() {
@@ -26,9 +28,21 @@ jQuery(function($) {
 			dots.removeClass('active').eq(index).addClass('active');
 			texts.removeClass('active').eq(index).addClass('active');
 
-			CURRENT_INDEX = index;
 		}
 
+		function next() {
+			if (CURRENT_INDEX + 1 <= MAX_INDEX) {
+				activatePhoto(CURRENT_INDEX + 1, false);
+			}
+		}
+
+		function previous() {
+			if (CURRENT_INDEX - 1 >= 0) {
+				activatePhoto(CURRENT_INDEX - 1, true);
+			}
+		}
+
+		// Events
 		dots.click(function(evt) {
 			var new_index = $(this).index();
 			if (new_index > CURRENT_INDEX) {
@@ -37,6 +51,8 @@ jQuery(function($) {
 				activatePhoto(new_index, true)
 			}
 		});
+		that.on('swipeleft', next);
+		that.on('swiperight', previous);
 
 		activatePhoto(0);
 
