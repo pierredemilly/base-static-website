@@ -13,42 +13,42 @@ jQuery(function($) {
 			that.height(moduleHeight);
       if (device.mobile.matches) {
        that.find('.dots').css('marginTop', .45 * moduleHeight);
-      } else {
-			 that.find('.dots').css('marginTop', moduleHeight - 60);
-      }
-		}
+     } else {
+      that.find('.dots').css('marginTop', moduleHeight - 60);
+    }
+  }
 
-		function activateSlide(index) {
-			slides.filter('.active').removeClass('active');
-			slides.eq(index).addClass('active');
+  function activateSlide(index) {
+   slides.filter('.active').removeClass('active');
+   slides.eq(index).addClass('active');
 
-			dots.filter('.active').removeClass('active');
-			dots.eq(index).addClass('active');
+   dots.filter('.active').removeClass('active');
+   dots.eq(index).addClass('active');
 
-			ACTIVE_INDEX = index;
-		}
+   ACTIVE_INDEX = index;
+ }
 
-		function scrollEvent(evt) {
-			var scrollPosition = scroller.scrollLeft();
+ function scrollEvent(evt) {
+   var scrollPosition = scroller.scrollLeft();
 
-			var index = Math.min(Math.floor(scrollPosition / DOTS_WIDTH), SLIDES_NUMBER - 1);
-			activateSlide(index);
-		}
+   var index = Math.min(Math.floor(scrollPosition / DOTS_WIDTH), SLIDES_NUMBER - 1);
+   activateSlide(index);
+ }
 
-		function scrollToIndex(index, speed) {
-			var scrollPosition = index * DOTS_WIDTH;
-			scroller.animate({
-				scrollLeft: scrollPosition
-			}, speed);
-		}
+ function scrollToIndex(index, speed) {
+   var scrollPosition = index * DOTS_WIDTH;
+   scroller.animate({
+    scrollLeft: scrollPosition
+  }, speed);
+ }
 
-		function next() {
-			scrollToIndex(Math.min(ACTIVE_INDEX + 1, SLIDES_NUMBER - 1), 300);
-		}
+ function next() {
+   scrollToIndex(Math.min(ACTIVE_INDEX + 1, SLIDES_NUMBER - 1), 300);
+ }
 
-		function previous() {
-			scrollToIndex(Math.max(ACTIVE_INDEX - 1, 0), 300);
-		}
+ function previous() {
+   scrollToIndex(Math.max(ACTIVE_INDEX - 1, 0), 300);
+ }
 
     // events
     scroller.scroll(scrollEvent);
@@ -63,6 +63,11 @@ jQuery(function($) {
     	} else if (evt.keyCode == '39') {
     		next();
     	}
+    });
+    $(window).resize(function() {
+      BROWSER_HEIGHT = $(window).height();
+      DOCUMENT_HEIGHT = $(document).height();
+      positionElements();
     });
 
     // init

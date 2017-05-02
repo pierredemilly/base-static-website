@@ -231,6 +231,16 @@
 		"oAP": "\/history.html",
 		"oF": 0
 		},
+	"\/images\/bonjourparis\/background_account-squashed.png": {
+		"ft": 32768,
+		"iS": 677574,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/background_account-squashed.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/bonjourparis\/background_account.png": {
 		"ft": 32768,
 		"iS": 1128029,
@@ -251,6 +261,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/bonjourparis\/header_logo_mobile-squashed.png": {
+		"ft": 32768,
+		"iS": 3952,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/header_logo_mobile-squashed.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/bonjourparis\/header_logo_mobile.png": {
 		"ft": 32768,
 		"iS": 4841,
@@ -261,12 +281,32 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/bonjourparis\/header_logo_tablet-squashed.png": {
+		"ft": 32768,
+		"iS": 5432,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/header_logo_tablet-squashed.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/bonjourparis\/header_logo_tablet.png": {
 		"ft": 32768,
 		"iS": 5607,
 		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/bonjourparis\/header_logo_tablet.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bonjourparis\/icon_arrow_down-squashed.png": {
+		"ft": 32768,
+		"iS": 165,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/icon_arrow_down-squashed.png",
 		"oF": 0,
 		"opt": 0,
 		"q": 100
@@ -301,6 +341,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/bonjourparis\/icon_arrow_left-squashed.png": {
+		"ft": 32768,
+		"iS": 412,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/icon_arrow_left-squashed.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/bonjourparis\/icon_arrow_left.png": {
 		"ft": 32768,
 		"iS": 470,
@@ -320,6 +370,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/bonjourparis\/icon_arrow_right-squashed.png": {
+		"ft": 32768,
+		"iS": 395,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/icon_arrow_right-squashed.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/bonjourparis\/icon_arrow_right.png": {
 		"ft": 32768,
@@ -351,12 +411,32 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/bonjourparis\/icon_backtotop-squashed.png": {
+		"ft": 32768,
+		"iS": 1028,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/icon_backtotop-squashed.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/bonjourparis\/icon_backtotop.png": {
 		"ft": 32768,
 		"iS": 1076,
 		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/bonjourparis\/icon_backtotop.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bonjourparis\/icon_basket-squashed.png": {
+		"ft": 32768,
+		"iS": 290,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/icon_basket-squashed.png",
 		"oF": 0,
 		"opt": 0,
 		"q": 100
@@ -371,12 +451,32 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/bonjourparis\/icon_basket_tablet-squashed.png": {
+		"ft": 32768,
+		"iS": 506,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/icon_basket_tablet-squashed.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/bonjourparis\/icon_basket_tablet.png": {
 		"ft": 32768,
 		"iS": 513,
 		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/bonjourparis\/icon_basket_tablet.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bonjourparis\/icon_burger_tablet-squashed.png": {
+		"ft": 32768,
+		"iS": 154,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/icon_burger_tablet-squashed.png",
 		"oF": 0,
 		"opt": 0,
 		"q": 100
@@ -391,12 +491,32 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/bonjourparis\/icon_close-squashed.png": {
+		"ft": 32768,
+		"iS": 500,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/icon_close-squashed.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/bonjourparis\/icon_close.png": {
 		"ft": 32768,
 		"iS": 735,
 		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/bonjourparis\/icon_close.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bonjourparis\/icon_facebook-squashed.png": {
+		"ft": 32768,
+		"iS": 1111,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/icon_facebook-squashed.png",
 		"oF": 0,
 		"opt": 0,
 		"q": 100
@@ -411,12 +531,32 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/bonjourparis\/icon_facebook_white-squashed.png": {
+		"ft": 32768,
+		"iS": 314,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/icon_facebook_white-squashed.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/bonjourparis\/icon_facebook_white.png": {
 		"ft": 32768,
 		"iS": 360,
 		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/bonjourparis\/icon_facebook_white.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bonjourparis\/icon_filter-squashed.png": {
+		"ft": 32768,
+		"iS": 1025,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/icon_filter-squashed.png",
 		"oF": 0,
 		"opt": 0,
 		"q": 100
@@ -451,12 +591,32 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/bonjourparis\/icon_instagram-squashed.png": {
+		"ft": 32768,
+		"iS": 1380,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/icon_instagram-squashed.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/bonjourparis\/icon_instagram.png": {
 		"ft": 32768,
 		"iS": 1424,
 		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/bonjourparis\/icon_instagram.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bonjourparis\/icon_instagram_black-squashed.png": {
+		"ft": 32768,
+		"iS": 1630,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/icon_instagram_black-squashed.png",
 		"oF": 0,
 		"opt": 0,
 		"q": 100
@@ -471,12 +631,32 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/bonjourparis\/icon_language-squashed.png": {
+		"ft": 32768,
+		"iS": 249,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/icon_language-squashed.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/bonjourparis\/icon_language.png": {
 		"ft": 32768,
 		"iS": 311,
 		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/bonjourparis\/icon_language.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bonjourparis\/icon_map_marker-squashed.png": {
+		"ft": 32768,
+		"iS": 1712,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/icon_map_marker-squashed.png",
 		"oF": 0,
 		"opt": 0,
 		"q": 100
@@ -501,6 +681,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/bonjourparis\/icon_search-squashed.png": {
+		"ft": 32768,
+		"iS": 317,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/icon_search-squashed.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/bonjourparis\/icon_search.png": {
 		"ft": 32768,
 		"iS": 385,
@@ -511,6 +701,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/images\/bonjourparis\/icon_search_tablet-squashed.png": {
+		"ft": 32768,
+		"iS": 834,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/icon_search_tablet-squashed.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/bonjourparis\/icon_search_tablet.png": {
 		"ft": 32768,
 		"iS": 1062,
@@ -519,6 +719,16 @@
 		"oAP": "\/images\/bonjourparis\/icon_search_tablet.png",
 		"oF": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/images\/bonjourparis\/icon_shop_now-squashed.png": {
+		"ft": 32768,
+		"iS": 299,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/icon_shop_now-squashed.png",
+		"oF": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/bonjourparis\/icon_shop_now.png": {
@@ -561,12 +771,32 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/bonjourparis\/icon_twitter-squashed.png": {
+		"ft": 32768,
+		"iS": 766,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/icon_twitter-squashed.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/bonjourparis\/icon_twitter.png": {
 		"ft": 32768,
 		"iS": 772,
 		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/bonjourparis\/icon_twitter.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bonjourparis\/icon_user-squashed.png": {
+		"ft": 32768,
+		"iS": 398,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/icon_user-squashed.png",
 		"oF": 0,
 		"opt": 0,
 		"q": 100
@@ -581,6 +811,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/bonjourparis\/icon_user_tablet-squashed.png": {
+		"ft": 32768,
+		"iS": 845,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/icon_user_tablet-squashed.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/bonjourparis\/icon_user_tablet.png": {
 		"ft": 32768,
 		"iS": 1017,
@@ -589,6 +829,16 @@
 		"oAP": "\/images\/bonjourparis\/icon_user_tablet.png",
 		"oF": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/images\/bonjourparis\/icon_youtube-squashed.png": {
+		"ft": 32768,
+		"iS": 1278,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/icon_youtube-squashed.png",
+		"oF": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/bonjourparis\/icon_youtube.png": {
@@ -921,6 +1171,33 @@
 		"iS": 1445,
 		"oA": 0,
 		"oAP": "\/images\/bonjourparis\/sample-content\/variation_7.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bonjourparis\/suggestion_1-squashed.jpg": {
+		"ft": 16384,
+		"iS": 192082,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/suggestion_1-squashed.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bonjourparis\/suggestion_2-squashed.jpg": {
+		"ft": 16384,
+		"iS": 190605,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/suggestion_2-squashed.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bonjourparis\/suggestion_3-squashed.jpg": {
+		"ft": 16384,
+		"iS": 195064,
+		"oA": 0,
+		"oAP": "\/images\/bonjourparis\/suggestion_3-squashed.jpg",
 		"oF": 0,
 		"opt": 0,
 		"q": 100
@@ -1384,6 +1661,177 @@
 		"iS": 224433,
 		"oA": 0,
 		"oAP": "\/static\/histoire_photo_2.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/static\/history\/1947.jpg": {
+		"ft": 16384,
+		"iS": 159981,
+		"oA": 0,
+		"oAP": "\/static\/history\/1947.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/static\/history\/1952.jpg": {
+		"ft": 16384,
+		"iS": 114781,
+		"oA": 0,
+		"oAP": "\/static\/history\/1952.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/static\/history\/1956.jpg": {
+		"ft": 16384,
+		"iS": 49324,
+		"oA": 0,
+		"oAP": "\/static\/history\/1956.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/static\/history\/1959.jpg": {
+		"ft": 16384,
+		"iS": 362112,
+		"oA": 0,
+		"oAP": "\/static\/history\/1959.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/static\/history\/1964.jpg": {
+		"ft": 16384,
+		"iS": 21948,
+		"oA": 0,
+		"oAP": "\/static\/history\/1964.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/static\/history\/1967.jpg": {
+		"ft": 16384,
+		"iS": 160719,
+		"oA": 0,
+		"oAP": "\/static\/history\/1967.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/static\/history\/1970.jpg": {
+		"ft": 16384,
+		"iS": 124939,
+		"oA": 0,
+		"oAP": "\/static\/history\/1970.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/static\/history\/1999.jpg": {
+		"ft": 16384,
+		"iS": 181307,
+		"oA": 0,
+		"oAP": "\/static\/history\/1999.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/static\/history\/2000.jpg": {
+		"ft": 16384,
+		"iS": 181973,
+		"oA": 0,
+		"oAP": "\/static\/history\/2000.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/static\/history\/2002.jpg": {
+		"ft": 16384,
+		"iS": 28137,
+		"oA": 0,
+		"oAP": "\/static\/history\/2002.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/static\/history\/2004.jpg": {
+		"ft": 16384,
+		"iS": 90162,
+		"oA": 0,
+		"oAP": "\/static\/history\/2004.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/static\/history\/2005.jpg": {
+		"ft": 16384,
+		"iS": 172221,
+		"oA": 0,
+		"oAP": "\/static\/history\/2005.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/static\/history\/2007.jpg": {
+		"ft": 16384,
+		"iS": 15827,
+		"oA": 0,
+		"oAP": "\/static\/history\/2007.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/static\/history\/2009.jpg": {
+		"ft": 16384,
+		"iS": 57596,
+		"oA": 0,
+		"oAP": "\/static\/history\/2009.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/static\/history\/2010.jpg": {
+		"ft": 16384,
+		"iS": 216199,
+		"oA": 0,
+		"oAP": "\/static\/history\/2010.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/static\/history\/2011.jpg": {
+		"ft": 16384,
+		"iS": 168157,
+		"oA": 0,
+		"oAP": "\/static\/history\/2011.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/static\/history\/2012-2.jpg": {
+		"ft": 16384,
+		"iS": 50302,
+		"oA": 0,
+		"oAP": "\/static\/history\/2012-2.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/static\/history\/2012.jpg": {
+		"ft": 16384,
+		"iS": 132691,
+		"oA": 0,
+		"oAP": "\/static\/history\/2012.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/static\/history\/2013.jpg": {
+		"ft": 16384,
+		"iS": 200707,
+		"oA": 0,
+		"oAP": "\/static\/history\/2013.jpg",
 		"oF": 0,
 		"opt": 0,
 		"q": 100

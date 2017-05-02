@@ -5,6 +5,7 @@
 			height: 20rem;
 			position: relative;
 			margin-bottom: 1rem;
+			overflow: hidden;
 			.photo {
 				width: 100%;
 				height: 100%;
@@ -134,7 +135,7 @@
 		justify-content: space-between;
 		@media screen and (max-width: 550px) {
 			padding: 0 .5rem;
-			flex-direction: column;
+			flex-direction: column-reverse;
 		}
 		.image {
 			width: 50%;

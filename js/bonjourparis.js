@@ -5,6 +5,12 @@ jQuery(document).ready(function($) {
   var HEADER_HEIGHT = $('#header').height();
   var TRANSITION_SPEED = 500;
 
+  $(window).resize(function() {
+    BROWSER_HEIGHT = $(window).height();
+    DOCUMENT_HEIGHT = $(document).height();
+    HEADER_HEIGHT = $('#header').height();
+  });
+
   // Media queries
   function detectDevice(device) {
     device.mobile = window.matchMedia( "(max-width: 550px)" );
