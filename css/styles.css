@@ -4024,6 +4024,9 @@ body {
     cursor: pointer;
     z-index: 200;
     transition: opacity 0.25s linear; }
+    @media screen and (max-width: 550px) {
+      .history-module .arrow {
+        display: none; } }
     .history-module .arrow:hover {
       opacity: 1; }
     .history-module .arrow.left {
@@ -4165,6 +4168,9 @@ body {
         cursor: pointer; }
         .history-module .scroller .dots .dot:last-of-type {
           margin-right: 25vw; }
+          @media screen and (max-width: 550px) {
+            .history-module .scroller .dots .dot:last-of-type {
+              margin-right: 45vw; } }
         .history-module .scroller .dots .dot:before {
           display: block;
           content: "";
@@ -4230,6 +4236,9 @@ body {
               font-size: .6rem;
               line-height: .75rem;
               letter-spacing: .03em; } }
+          @media screen and (max-width: 550px) {
+            .history-module .scroller .dots .dot .year {
+              display: none; } }
         .history-module .scroller .dots .dot:hover .black-dot {
           width: .45rem;
           height: .45rem; }

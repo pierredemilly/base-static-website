@@ -33,6 +33,9 @@
 		cursor: pointer;
 		z-index: 200;
 		transition: opacity $transition-speed / 2 linear;
+		@media screen and (max-width: 550px) {
+			display: none;
+		}
 		&:hover {
 			opacity: 1;
 		}
@@ -174,6 +177,9 @@
 				cursor: pointer;
 				&:last-of-type {
 					margin-right: 25vw;
+					@media screen and (max-width: 550px) {
+						margin-right: 45vw;
+					}
 				}
 				&:before {
 					display: block;
@@ -234,6 +240,9 @@
 					opacity: 0;
 					transition: opacity $transition-speed / 2 linear, bottom $transition-speed / 2 ease-out;
 					pointer-events: none;
+					@media screen and (max-width: 550px) {
+						display: none;
+					}
 				}
 				&:hover {
 					.black-dot {
