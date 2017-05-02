@@ -145,7 +145,7 @@ jQuery(document).ready(function($) {
   // Viewed by
   // @codekit-prepend "bonjourparis/viewed-by.js"
   if ($('.viewed-by-module').length) {
-    $('.viewed-by-module').viewedByModule();
+    $('.viewed-by-module').viewedByModule(device);
   }
 
   // Template Star

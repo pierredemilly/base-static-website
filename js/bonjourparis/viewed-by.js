@@ -1,12 +1,16 @@
 jQuery(function($) {
 
-	$.fn.viewedByModule = function() {
+	$.fn.viewedByModule = function(device) {
 
 		var that = this;
 		var grid = that.find('.photo-grid');
 		var cells = that.find('.grid-element');
 		var rowHeight = cells.first().outerHeight();
-		var cols = 4;
+		if (device.mobile.matches) {
+			var cols = 2;
+		} else {
+			var cols = 4;
+		}
 		var colWidth = cells.first().outerWidth();
 
 		function absoluteGrid() {
