@@ -1,101 +1,11 @@
-@font-face {
-  font-family: 'Campton';
-  src: url('../fonts/Campton-ExtraLight.otf') format('opentype'),
-  url('../fonts/Campton-ExtraLight.woff') format('woff'),
-  url('../fonts/Campton-ExtraLight.woff2') format('woff2');
-  font-weight: 200;
-  font-style: normal
-}
-@font-face {
-  font-family: 'Campton';
-  src: url('../fonts/Campton-Light.otf') format('opentype'),
-  url('../fonts/Campton-Light.woff') format('woff'),
-  url('../fonts/Campton-Light.woff2') format('woff2');
-  font-weight: 300;
-  font-style: normal
-}
-@font-face {
-  font-family: 'Campton';
-  src: url('../fonts/Campton-Book.otf') format('opentype'),
-  url('../fonts/Campton-Book.woff') format('woff'),
-  url('../fonts/Campton-Book.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal
-}
-@font-face {
-  font-family: 'Bellina';
-  src: url('../fonts/Bellina-Regular.otf') format('opentype'),
-  url('../fonts/Bellina-Regular.woff') format('woff'),
-  url('../fonts/Bellina-Regular.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal
-}
+// @font-face {
+//   font-family: 'Campton';
+//   src: url('../fonts/Campton-ExtraLight.otf') format('opentype'),
+//   url('../fonts/Campton-ExtraLight.woff') format('woff'),
+//   url('../fonts/Campton-ExtraLight.woff2') format('woff2');
+//   font-weight: 200;
+//   font-style: normal
+// }
 
-$font-sans: Campton, Helvetica, Arial, sans-serif;
-$font-serifs: Bellina, Georgia, serif;
-
-@mixin headline {
-  font-family: $font-sans;
-  font-size: .8rem;
-  line-height: 1rem;
-  font-weight: 300;
-  letter-spacing: .04em;
-  text-transform: uppercase;
-  @media screen and (max-width: 700px) {
-    font-size: .65rem;
-    line-height: .75rem;
-  }
-}
-
-@mixin title {
-  font-family: $font-sans;
-  font-size: .7rem;
-  line-height: 1rem;
-  font-weight: 200;
-  letter-spacing: .04em;
-  text-transform: uppercase;
-  @media screen and (max-width: 700px) {
-    font-size: .6rem;
-    line-height: .75rem;
-  }
-}
-
-@mixin title-serifs {
-    font-family: $font-serifs;
-    font-size: 2rem;
-    line-height: 2rem;
-    font-weight: normal;
-    text-transform: none;
-}
-
-@mixin subtitle-serifs {
-    font-family: $font-serifs;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    font-weight: normal;
-}
-
-@mixin body {
-  font-family: $font-sans;
-  font-size: .7rem;
-  line-height: 1rem;
-  font-weight: 200;
-  letter-spacing: .02em;
-  @media screen and (max-width: 700px) {
-    font-size: .6rem;
-    line-height: .75rem;
-    letter-spacing: .03em;
-  }
-}
-
-@mixin caption {
-  font-family: $font-sans;
-  font-size: .6rem;
-  line-height: 1rem;
-  font-weight: 200;
-  letter-spacing: .02em;
-  @media screen and (max-width: 700px) {
-    font-size: .5rem;
-    line-height: .75rem;
-  }
-}
+$font-sans: Helvetica, Arial, sans-serif;
+$font-serifs: Georgia, serif;
