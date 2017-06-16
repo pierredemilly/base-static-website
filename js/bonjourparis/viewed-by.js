@@ -12,32 +12,19 @@ jQuery(function($) {
 			var cols = 4;
 		}
 		var colWidth = cells.first().outerWidth();
-
-		function absoluteGrid() {
-			var gridHeight = grid.height();
-			var offset = grid.offset().top;
-			grid.height(gridHeight);
-			cells.each(function(index) {
-				$(this).css({
-					"position": "absolute",
-					"top": offset + Math.floor(index / cols) * rowHeight,
-					"left": 10 + (index % cols) * colWidth
-				});
-			});
-		}
+		var $overlay = that.find('.photo-overlay');
 
 		// init
-		absoluteGrid();
 		cells.click(function() {
 			var $that = $(this);
-			if ($that.hasClass('fullscreen')) {
-				$that.removeClass('fullscreen');
-				setTimeout(function() {
-					$that.removeClass('above');
-				}, 500);
-			} else {
-				$that.addClass('fullscreen above');
-			}
+			var src = $that.find('img').attr('src');
+			$that.addClass('fullscreen');
+			$overlay.find('.photo').attr('src', src);
+			$overlay.addClass('active');
+		});
+		$overlay.click(function() {
+			$(this).removeClass('active');
+			cells.filter('.fullscreen').removeClass('fullscreen');
 		});
 
 	};

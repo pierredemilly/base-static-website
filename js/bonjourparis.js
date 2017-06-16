@@ -161,5 +161,12 @@ jQuery(document).ready(function($) {
     $('.photos-slider').photosSlider();
   }
 
+  // Footer Page
+  if ($('.footer-page').length) {
+    $('.open-menu').click(function() {
+      $('.footer-page').toggleClass('menu-open');
+    });
+  }
+
 
 });

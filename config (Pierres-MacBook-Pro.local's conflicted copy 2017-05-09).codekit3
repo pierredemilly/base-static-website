@@ -95,16 +95,6 @@
 		"oF": 1,
 		"oS": 0
 		},
-	"\/css\/styles (Pierres-iMac's conflicted copy 2017-05-09).css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/styles (Pierres-iMac's conflicted copy 2017-05-09)-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/css\/styles-ie.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1771,7 +1761,7 @@
 		"uL": 1
 		},
 	"\/scss\/styles.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1783,381 +1773,381 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/static pages\/fondation_photo_1.jpg": {
+	"\/static\/fondation_photo_1.jpg": {
 		"ft": 16384,
 		"iS": 264404,
 		"oA": 0,
-		"oAP": "\/static pages\/fondation_photo_1.jpg",
+		"oAP": "\/static\/fondation_photo_1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/histoire_photo_1.jpg": {
+	"\/static\/histoire_photo_1.jpg": {
 		"ft": 16384,
 		"iS": 247449,
 		"oA": 0,
-		"oAP": "\/static pages\/histoire_photo_1.jpg",
+		"oAP": "\/static\/histoire_photo_1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/histoire_photo_2.jpg": {
+	"\/static\/histoire_photo_2.jpg": {
 		"ft": 16384,
 		"iS": 224433,
 		"oA": 0,
-		"oAP": "\/static pages\/histoire_photo_2.jpg",
+		"oAP": "\/static\/histoire_photo_2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/history\/1947.jpg": {
+	"\/static\/history\/1947.jpg": {
 		"ft": 16384,
 		"iS": 159981,
 		"oA": 0,
-		"oAP": "\/static pages\/history\/1947.jpg",
+		"oAP": "\/static\/history\/1947.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/history\/1952.jpg": {
+	"\/static\/history\/1952.jpg": {
 		"ft": 16384,
 		"iS": 114781,
 		"oA": 0,
-		"oAP": "\/static pages\/history\/1952.jpg",
+		"oAP": "\/static\/history\/1952.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/history\/1956.jpg": {
+	"\/static\/history\/1956.jpg": {
 		"ft": 16384,
 		"iS": 49324,
 		"oA": 0,
-		"oAP": "\/static pages\/history\/1956.jpg",
+		"oAP": "\/static\/history\/1956.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/history\/1959.jpg": {
+	"\/static\/history\/1959.jpg": {
 		"ft": 16384,
 		"iS": 362112,
 		"oA": 0,
-		"oAP": "\/static pages\/history\/1959.jpg",
+		"oAP": "\/static\/history\/1959.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/history\/1964.jpg": {
+	"\/static\/history\/1964.jpg": {
 		"ft": 16384,
 		"iS": 21948,
 		"oA": 0,
-		"oAP": "\/static pages\/history\/1964.jpg",
+		"oAP": "\/static\/history\/1964.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/history\/1967.jpg": {
+	"\/static\/history\/1967.jpg": {
 		"ft": 16384,
 		"iS": 160719,
 		"oA": 0,
-		"oAP": "\/static pages\/history\/1967.jpg",
+		"oAP": "\/static\/history\/1967.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/history\/1970.jpg": {
+	"\/static\/history\/1970.jpg": {
 		"ft": 16384,
 		"iS": 124939,
 		"oA": 0,
-		"oAP": "\/static pages\/history\/1970.jpg",
+		"oAP": "\/static\/history\/1970.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/history\/1999.jpg": {
+	"\/static\/history\/1999.jpg": {
 		"ft": 16384,
 		"iS": 181307,
 		"oA": 0,
-		"oAP": "\/static pages\/history\/1999.jpg",
+		"oAP": "\/static\/history\/1999.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/history\/2000.jpg": {
+	"\/static\/history\/2000.jpg": {
 		"ft": 16384,
 		"iS": 181973,
 		"oA": 0,
-		"oAP": "\/static pages\/history\/2000.jpg",
+		"oAP": "\/static\/history\/2000.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/history\/2002.jpg": {
+	"\/static\/history\/2002.jpg": {
 		"ft": 16384,
 		"iS": 28137,
 		"oA": 0,
-		"oAP": "\/static pages\/history\/2002.jpg",
+		"oAP": "\/static\/history\/2002.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/history\/2004.jpg": {
+	"\/static\/history\/2004.jpg": {
 		"ft": 16384,
 		"iS": 90162,
 		"oA": 0,
-		"oAP": "\/static pages\/history\/2004.jpg",
+		"oAP": "\/static\/history\/2004.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/history\/2005.jpg": {
+	"\/static\/history\/2005.jpg": {
 		"ft": 16384,
 		"iS": 172221,
 		"oA": 0,
-		"oAP": "\/static pages\/history\/2005.jpg",
+		"oAP": "\/static\/history\/2005.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/history\/2007.jpg": {
+	"\/static\/history\/2007.jpg": {
 		"ft": 16384,
 		"iS": 15827,
 		"oA": 0,
-		"oAP": "\/static pages\/history\/2007.jpg",
+		"oAP": "\/static\/history\/2007.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/history\/2009.jpg": {
+	"\/static\/history\/2009.jpg": {
 		"ft": 16384,
 		"iS": 57596,
 		"oA": 0,
-		"oAP": "\/static pages\/history\/2009.jpg",
+		"oAP": "\/static\/history\/2009.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/history\/2010.jpg": {
+	"\/static\/history\/2010.jpg": {
 		"ft": 16384,
 		"iS": 216199,
 		"oA": 0,
-		"oAP": "\/static pages\/history\/2010.jpg",
+		"oAP": "\/static\/history\/2010.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/history\/2011.jpg": {
+	"\/static\/history\/2011.jpg": {
 		"ft": 16384,
 		"iS": 168157,
 		"oA": 0,
-		"oAP": "\/static pages\/history\/2011.jpg",
+		"oAP": "\/static\/history\/2011.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/history\/2012-2.jpg": {
+	"\/static\/history\/2012-2.jpg": {
 		"ft": 16384,
 		"iS": 50302,
 		"oA": 0,
-		"oAP": "\/static pages\/history\/2012-2.jpg",
+		"oAP": "\/static\/history\/2012-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/history\/2012.jpg": {
+	"\/static\/history\/2012.jpg": {
 		"ft": 16384,
 		"iS": 132691,
 		"oA": 0,
-		"oAP": "\/static pages\/history\/2012.jpg",
+		"oAP": "\/static\/history\/2012.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/history\/2013.jpg": {
+	"\/static\/history\/2013.jpg": {
 		"ft": 16384,
 		"iS": 200707,
 		"oA": 0,
-		"oAP": "\/static pages\/history\/2013.jpg",
+		"oAP": "\/static\/history\/2013.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/pointe_photo.jpg": {
+	"\/static\/pointe_photo.jpg": {
 		"ft": 16384,
 		"iS": 282352,
 		"oA": 0,
-		"oAP": "\/static pages\/pointe_photo.jpg",
+		"oAP": "\/static\/pointe_photo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/savoirfaire_1.jpg": {
+	"\/static\/savoirfaire_1.jpg": {
 		"ft": 16384,
 		"iS": 88007,
 		"oA": 0,
-		"oAP": "\/static pages\/savoirfaire_1.jpg",
+		"oAP": "\/static\/savoirfaire_1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/savoirfaire_2.jpg": {
+	"\/static\/savoirfaire_2.jpg": {
 		"ft": 16384,
 		"iS": 285063,
 		"oA": 0,
-		"oAP": "\/static pages\/savoirfaire_2.jpg",
+		"oAP": "\/static\/savoirfaire_2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/savoirfaire_3.jpg": {
+	"\/static\/savoirfaire_3.jpg": {
 		"ft": 16384,
 		"iS": 262894,
 		"oA": 0,
-		"oAP": "\/static pages\/savoirfaire_3.jpg",
+		"oAP": "\/static\/savoirfaire_3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/viewed_photo_1.jpg": {
+	"\/static\/viewed_photo_1.jpg": {
 		"ft": 16384,
 		"iS": 54306,
 		"oA": 0,
-		"oAP": "\/static pages\/viewed_photo_1.jpg",
+		"oAP": "\/static\/viewed_photo_1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/viewed_photo_10.jpg": {
+	"\/static\/viewed_photo_10.jpg": {
 		"ft": 16384,
 		"iS": 61478,
 		"oA": 0,
-		"oAP": "\/static pages\/viewed_photo_10.jpg",
+		"oAP": "\/static\/viewed_photo_10.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/viewed_photo_11.jpg": {
+	"\/static\/viewed_photo_11.jpg": {
 		"ft": 16384,
 		"iS": 53670,
 		"oA": 0,
-		"oAP": "\/static pages\/viewed_photo_11.jpg",
+		"oAP": "\/static\/viewed_photo_11.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/viewed_photo_12.jpg": {
+	"\/static\/viewed_photo_12.jpg": {
 		"ft": 16384,
 		"iS": 63009,
 		"oA": 0,
-		"oAP": "\/static pages\/viewed_photo_12.jpg",
+		"oAP": "\/static\/viewed_photo_12.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/viewed_photo_2.jpg": {
+	"\/static\/viewed_photo_2.jpg": {
 		"ft": 16384,
 		"iS": 44304,
 		"oA": 0,
-		"oAP": "\/static pages\/viewed_photo_2.jpg",
+		"oAP": "\/static\/viewed_photo_2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/viewed_photo_3.jpg": {
+	"\/static\/viewed_photo_3.jpg": {
 		"ft": 16384,
 		"iS": 43950,
 		"oA": 0,
-		"oAP": "\/static pages\/viewed_photo_3.jpg",
+		"oAP": "\/static\/viewed_photo_3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/viewed_photo_4.jpg": {
+	"\/static\/viewed_photo_4.jpg": {
 		"ft": 16384,
 		"iS": 60813,
 		"oA": 0,
-		"oAP": "\/static pages\/viewed_photo_4.jpg",
+		"oAP": "\/static\/viewed_photo_4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/viewed_photo_5.jpg": {
+	"\/static\/viewed_photo_5.jpg": {
 		"ft": 16384,
 		"iS": 64011,
 		"oA": 0,
-		"oAP": "\/static pages\/viewed_photo_5.jpg",
+		"oAP": "\/static\/viewed_photo_5.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/viewed_photo_6.jpg": {
+	"\/static\/viewed_photo_6.jpg": {
 		"ft": 16384,
 		"iS": 50997,
 		"oA": 0,
-		"oAP": "\/static pages\/viewed_photo_6.jpg",
+		"oAP": "\/static\/viewed_photo_6.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/viewed_photo_7.jpg": {
+	"\/static\/viewed_photo_7.jpg": {
 		"ft": 16384,
 		"iS": 46863,
 		"oA": 0,
-		"oAP": "\/static pages\/viewed_photo_7.jpg",
+		"oAP": "\/static\/viewed_photo_7.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/viewed_photo_8.jpg": {
+	"\/static\/viewed_photo_8.jpg": {
 		"ft": 16384,
 		"iS": 69878,
 		"oA": 0,
-		"oAP": "\/static pages\/viewed_photo_8.jpg",
+		"oAP": "\/static\/viewed_photo_8.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/static pages\/viewed_photo_9.jpg": {
+	"\/static\/viewed_photo_9.jpg": {
 		"ft": 16384,
 		"iS": 52681,
 		"oA": 0,
-		"oAP": "\/static pages\/viewed_photo_9.jpg",
+		"oAP": "\/static\/viewed_photo_9.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
